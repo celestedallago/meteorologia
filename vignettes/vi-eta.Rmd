@@ -1,0 +1,23 @@
+---
+title: "viñeta"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{viñeta}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(meteorologia)
+```
+Esta es una viñeta de prueba. Podemos mostrar como usar la función `simular_meteorologia()`
+```{r}
+simular_meteorologia()
+```
