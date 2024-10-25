@@ -13,12 +13,14 @@
 #' @examples
 #' min_max_por_estacion()
 #' @export
-min_max_por_mes <- function(datos) {
-  datos %>%
-    mutate(mes = format(as.Date(fecha), "%Y-%m")) %>%  # Extrae el año y mes de la fecha
-    group_by(mes) %>%
-    summarise(
-      temp_min = min(temperatura, na.rm = TRUE),
-      temp_max = max(temperatura, na.rm = TRUE)
-    )
-}
+#' min_max_por_mes <- function(datos) {
+datos %>%
+  mutate(mes = format(as.Date(fecha), "%Y-%m")) %>%  # Extrae el año y mes de la fecha
+  group_by(mes) %>%
+  summarise(
+    temp_min = min(temperatura, na.rm = TRUE),
+    temp_max = max(temperatura, na.rm = TRUE)
+  )
+ }
+
+
