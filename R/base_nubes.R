@@ -21,6 +21,6 @@ datos %>%
     temp_min = min(temperatura, na.rm = TRUE),
     temp_max = max(temperatura, na.rm = TRUE)
   )
- }
+}
 
 
