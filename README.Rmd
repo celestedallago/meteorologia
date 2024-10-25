@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # meteorologia
 
 <!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
 El obetivo del paquete meteorologia es tener diferentes funciones que nos sirvan para leer y analizar datos metorologia....
