@@ -4,6 +4,9 @@
 # meteorologia
 
 <!-- badges: start -->
+
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
 El obetivo del paquete meteorologia es tener diferentes funciones que
@@ -27,9 +30,9 @@ This is a basic example which shows you how to solve a common problem:
 library(meteorologia)
 simular_meteorologia()
 #> $temperatura
-#> [1] 18
+#> [1] 8
 #> 
 #> $precipitacion
-#> [1] 95
+#> [1] 50
 #esto me devuelve dos pares de valores de manera aleatoria, una haciendo referencia a la temperatura y otro a la precipitacion
 ```
