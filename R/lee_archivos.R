@@ -19,6 +19,7 @@
 #'
 
 
+
 leer_archivo <- function(ruta) {
   # Detectar la extensión del archivo
   extension <- tools::file_ext(ruta)
