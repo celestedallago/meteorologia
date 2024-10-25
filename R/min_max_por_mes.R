@@ -1,17 +1,17 @@
 #' Minimos y maximos por por fecha
 #'
 #'
-#'La funcion 'min_max_por_estacion()' te devuelve las temperaturas minimas y maximas registradas en cada mes
+#'La funcion 'min_max_por_mes()' te devuelve las temperaturas minimas y maximas registradas en cada mes
 #'
 #' Esta es informacion extra
 #'
 #' @return
-#' Poner la estacion que deseamos ver
+#' Poner el mes que deseamos ver
 #' Ejemplo:
 #'
 #'
 #' @examples
-#' min_max_por_estacion()
+#' min_max_por_mes()
 #' @export
 #'
 min_max_por_mes <- function(datos) {
