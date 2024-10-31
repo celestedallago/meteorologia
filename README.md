@@ -35,3 +35,5 @@ simular_meteorologia()
 #> [1] 50
 #esto me devuelve dos pares de valores de manera aleatoria, una haciendo referencia a la temperatura y otro a la precipitacion
 ```
+
+
