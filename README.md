@@ -14,7 +14,7 @@ nos sirvan para leer y analizar datos metorologia….
 
 ## Installation
 
-Puedes instalar la versión de desarrollo de meteorologia desde
+Puede instalar la versión de desarrollo de meteorologia from
 [GitHub](https://github.com/) with:
 
 ``` r
@@ -25,15 +25,14 @@ pak::pak("celestedallago/meteorologia")
 ## Example
 
 Este es un ejemplo básico que muestra cómo resolver un problema común:
+
 ``` r
 library(meteorologia)
 simular_meteorologia()
 #> $temperatura
-#> [1] 8
+#> [1] 13
 #> 
 #> $precipitacion
-#> [1] 50
+#> [1] 34
 #esto me devuelve dos pares de valores de manera aleatoria, una haciendo referencia a la temperatura y otro a la precipitacion
 ```
-
-

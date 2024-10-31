@@ -39,13 +39,3 @@ library(meteorologia)
 simular_meteorologia()
 #esto me devuelve dos pares de valores de manera aleatoria, una haciendo referencia a la temperatura y otro a la precipitacion
 ```
-
-## Example 
-
-Este es un ejemplo de como funciona la funcion fahrenheit a centigrado
-
-```{r example}
-library(meteorologia)
-fahrenheit_a_centigrados(50)
-#esto me devuelve, los grados fahrenheit transformados a centigrados
-```
