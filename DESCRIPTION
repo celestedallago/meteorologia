@@ -7,7 +7,7 @@ Authors@R:
     person("Victoria", "Marull", ,"vmarull@mail.austral.edu.ar", role = c("aut", "cre"), 
             comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: Este paquete es sobre datos metereologicos y no esta pensado para ser instalado.
-License: MIT license
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
