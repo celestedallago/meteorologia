@@ -6,7 +6,7 @@
 #'
 #'# lee archivos
 #'
-#' @param ruta
+#' @param ruta el parametro que tenes que poner es el url de tu datset
 #'
 #'
 #' @return
