@@ -23,7 +23,7 @@ El obetivo del paquete meteorologia es tener diferentes funciones que nos sirvan
 
 ## Installation
 
-You can install the development version of meteorologia from [GitHub](https://github.com/) with:
+Puede instalar la versión de desarrollo de meteorologia from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("pak")
@@ -32,7 +32,7 @@ pak::pak("celestedallago/meteorologia")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+Este es un ejemplo básico que muestra cómo resolver un problema común:
 
 ```{r example}
 library(meteorologia)

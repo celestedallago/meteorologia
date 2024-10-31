@@ -1,10 +1,10 @@
 
 #' Leer archivos
 #'
-#'
 #' Lo que hace esta funcion es leer tu archivo,
 #' puede ser tanto URL como rutas locales
 #'
+#'# lee archivos
 #'
 #' @param ruta
 #'

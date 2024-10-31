@@ -7,8 +7,7 @@ Authors@R:
     person("Victoria", "Marull", ,"vmarull@mail.austral.edu.ar", role = c("aut", "cre"), 
             comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: Este paquete es sobre datos metereologicos y no esta pensado para ser instalado.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
@@ -16,6 +15,14 @@ URL: https://github.com/celestedallago/meteorologia, https://celestedallago.gith
 BugReports: https://github.com/celestedallago/meteorologia/issues
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    testthat (>= 3.0.0)
 VignetteBuilder: knitr
+<<<<<<< HEAD
 
+=======
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Config/testthat/edition: 3
+>>>>>>> 0722826ebc63d6c57d233d82ec5882215e4a3af4

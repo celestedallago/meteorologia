@@ -14,7 +14,7 @@ nos sirvan para leer y analizar datos metorologia….
 
 ## Installation
 
-You can install the development version of meteorologia from
+Puedes instalar la versión de desarrollo de meteorologia desde
 [GitHub](https://github.com/) with:
 
 ``` r
@@ -24,8 +24,7 @@ pak::pak("celestedallago/meteorologia")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
-
+Este es un ejemplo básico que muestra cómo resolver un problema común:
 ``` r
 library(meteorologia)
 simular_meteorologia()
